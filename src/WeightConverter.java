@@ -31,6 +31,7 @@ public class WeightConverter {
         }
         else
             System.out.println("Invalid choice or weight");
-    }
 
+        sc.close();
+    }
 }
