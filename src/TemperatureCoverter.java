@@ -18,7 +18,7 @@ public class TemperatureCoverter {
 
         newTemp = (unit.equals("C") ? (temp - 32) * 5 / 9 : (temp * 5 / 9) + 32);
 
-        System.out.printf("The converted temperature: %.1f°%s",newTemp, unit);
+        System.out.printf("The converted temperature: %.1f°%s\n",newTemp, unit);
 
 
         sc.close();
